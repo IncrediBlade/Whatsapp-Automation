@@ -16,13 +16,13 @@ The bot creates a **separate folder for each contact** inside the `People/` dire
 - `temp_reference.txt` → Future use for fetching specific chat parts  
 - `basicR.txt` → **Stores reminders (AI understands reminders using NLP)**  
 
-## 🛠️ Technologies Used  
-- Python 🐍  
+## Technologies Used  
+- Python  
 - Web Scraping (for WhatsApp automation)  
 - **NLP** for understanding reminders  
 - Mistral AI API   
 
-## 🔧 Setup Instructions  
+## Setup Instructions  
 ### **1️⃣ Get Mistral AI API Key**  
 - Go to **[Mistral AI](https://mistral.ai)** and create an account.  
 - Get your **API key** for free.  
