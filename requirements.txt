@@ -1,0 +1,7 @@
+requests
+spacy
+selenium
+os
+re
+time
+threading
