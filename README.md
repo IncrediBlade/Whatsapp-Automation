@@ -1,4 +1,4 @@
-# WhatsApp Automation - AI-Powered Bot 🤖
+# WhatsApp Automation - AI-Powered Bot
 ### *by IncrediBlade*
 
 ![GitHub Stars](https://img.shields.io/github/stars/IncrediBlade/Whatsapp-Automation?style=social) ![GitHub Forks](https://img.shields.io/github/forks/IncrediBlade/Whatsapp-Automation?style=social) ![GitHub Issues](https://img.shields.io/github/issues/IncrediBlade/Whatsapp-Automation) ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
