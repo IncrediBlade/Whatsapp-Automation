@@ -1,11 +1,7 @@
 # WhatsApp Automation - AI-Powered Bot 🤖
 ### *by IncrediBlade*
 
-![GitHub Stars](https://img.shields.io/github/stars/IncrediBlade/Whatsapp-Automation?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/IncrediBlade/Whatsapp-Automation?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/IncrediBlade/Whatsapp-Automation)
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub Stars](https://img.shields.io/github/stars/IncrediBlade/Whatsapp-Automation?style=social) ![GitHub Forks](https://img.shields.io/github/forks/IncrediBlade/Whatsapp-Automation?style=social) ![GitHub Issues](https://img.shields.io/github/issues/IncrediBlade/Whatsapp-Automation) ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
 An **AI-powered WhatsApp Automation bot** that responds to people on your behalf, keeps track of past conversations, and even sets reminders for you. Built with **Mistral AI, Selenium, NLP, and Python**.
 
@@ -16,7 +12,6 @@ An **AI-powered WhatsApp Automation bot** that responds to people on your behalf
 ## 📋 Table of Contents
 - [Features](#features)
 - [Use Cases](#use-cases)
-- [Demo](#demo)
 - [How It Works](#how-it-works)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
@@ -51,33 +46,31 @@ An **AI-powered WhatsApp Automation bot** that responds to people on your behalf
 
 ---
 
-## 🎬 Demo
-
-### Demo GIF Coming Soon!
-*Working on creating an exciting demo video showcasing the bot in action!*
-
-![Demo Placeholder](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=WhatsApp+Automation+Demo+Coming+Soon)
-
----
-
 ## 🔧 How It Works?
 
-The bot creates a **separate folder for each contact** inside the `People/` directory. Each folder contains:
+The bot creates a separate folder for each contact inside the People/ directory. Each folder contains:
 
-- `main.txt` → Full conversation history
-- `submain.txt` → Limited chat history for AI memory efficiency
-- `temp_reference.txt` → Future use for fetching specific chat parts
-- `basicR.txt` → **Stores reminders (AI understands reminders using NLP)**
+• **main.txt** → Full conversation history
+
+• **submain.txt** → Limited chat history for AI memory efficiency
+
+• **temp_reference.txt** → Future use for fetching specific chat parts
+
+• **basicR.txt** → Stores reminders (AI understands reminders using NLP)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Python** - Core programming language
-- **Selenium** - Web automation for WhatsApp Web
-- **Mistral AI API** - Intelligent AI responses
-- **NLP** - Natural Language Processing for understanding reminders
-- **Web Scraping** - Extracting and processing WhatsApp messages
+• **Python** - Core programming language
+
+• **Selenium** - Web automation for WhatsApp Web
+
+• **Mistral AI API** - Intelligent AI responses
+
+• **NLP** - Natural Language Processing for understanding reminders
+
+• **Web Scraping** - Extracting and processing WhatsApp messages
 
 ---
 
@@ -85,29 +78,31 @@ The bot creates a **separate folder for each contact** inside the `People/` dire
 
 ### **1️⃣ Get Mistral AI API Key**
 
-- Go to **[Mistral AI](https://mistral.ai)** and create an account
-- Get your **API key** for free
+- Go to [Mistral AI](https://mistral.ai/) and create an account
+- Get your API key for free
 
 ### **2️⃣ Download WebDriver for Your Browser**
 
-The bot controls WhatsApp **via WhatsApp Web**, so you need the right **WebDriver**:
+The bot controls WhatsApp via WhatsApp Web, so you need the right WebDriver:
 
 - **Edge** → Download [Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+
 - **Chrome** → Download [Chrome WebDriver](https://chromedriver.chromium.org/downloads)
+
 - **Firefox** → Download [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 
-- Place the **WebDriver** inside your project folder or set it in **System PATH**
+• Place the WebDriver inside your project folder or set it in System PATH
 
 ### **3️⃣ Update Code for Your Browser**
 
-- The current code is **optimized for Microsoft Edge**
-- If you're using **Chrome or Firefox**, update the **WebDriver path & options** accordingly in the script
+- The current code is optimized for Microsoft Edge
+- If you're using Chrome or Firefox, update the WebDriver path & options accordingly in the script
 
 ### **4️⃣ Set the Correct File Locations**
 
-- Wherever **file locations** are mentioned in the code, **update them according to your system**
+- Wherever file locations are mentioned in the code, update them according to your system
 
-### **5️⃣ Login to WhatsApp Web** *(Required Only Once!)*
+### **5️⃣ Login to WhatsApp Web (Required Only Once!)**
 
 - Open WhatsApp Web in your browser and scan the QR code to log in
 - Once logged in, your session stays active even if your laptop shuts down
